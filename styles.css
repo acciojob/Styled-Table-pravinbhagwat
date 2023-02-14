@@ -1,1 +1,34 @@
 /* your code */
+table {
+    width: 900px;
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead {
+    background-color: midnightblue;
+    color: white;
+}
+
+table thead th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+table tbody .even {
+    background-color: gainsboro;
+}
+
+.left1 {
+    border-top-left-radius: 16px;
+}
+.left2 {
+    border-bottom-left-radius: 16px;
+}
+.right1 {
+    border-top-right-radius: 16px;
+}
+.right2 {
+    border-bottom-right-radius: 16px;;
+}
